@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Projeto Cotação de Moeda
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido na linguagem Javascript utilizando o frameword REACT. Tem como objetivo obter a cotação das principais moedas atualmente. Euro, Dólar e Bitcoin.
+Para que a cotação seja exibida, é necessário marcar a caixa de seleção correspondente a moeda desejada.
 
-## Available Scripts
+![image](https://github.com/user-attachments/assets/a3adf662-ca1c-4cd4-a963-8801705d64d5)
 
-In the project directory, you can run:
+## 🚀 Montagem de Ambiente
 
-### `npm start`
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 📋 Pré-requisitos
 
-### `npm test`
+Para que a aplicação rode localmente, devemos ter instalado na máquina os itens listados abaixo: <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Node versão 16.16.0<br>
 
-### `npm run build`
+### 🔧 Instalação passo a passo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1) Realizar o clone do projeto - git clone (https://github.com/bgrbarbosa/cotacao-moeda-react.git)t<br>
+![image](https://github.com/user-attachments/assets/91bec372-665c-424e-a558-e1c0e3168de2)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2) Para a build do front-end
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   2.1) Na pasta raiz do projeto rodar o comando: npm install<br>
+   2.2) npm start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Executando os testes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  Testando o projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   Abrir a url no navegador e digitar a url http://localhost:3000/ e a tela abaixo deverá ser exibida.<br>
+   ![image](https://github.com/user-attachments/assets/b2801e73-6bc5-49e5-8f90-7fbe69c39766)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📦 Implantação
+
+  Gerando um build de deploy do projeto: npm run build
+
+## 📌 Versão
+
+V1.0.0 - Versão Beta. 
+
+## ✒️ Autores
+
+Projetado e Desenvolvido por: Bruno Gaspar Romeiro Barbosa.<br>
+Contato: bgrbarbosa@hotmail.com - Cel: (24)98854-9631
+
+## 📄 Licença
+
+Este projeto foi criado para fins educativo, sendo livre para ser clonado e alterado de acordo com a necessidade dos usuários.
